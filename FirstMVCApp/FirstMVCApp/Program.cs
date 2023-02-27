@@ -1,4 +1,5 @@
 using FirstMVCApp.DataContext;
+using FirstMVCApp.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -8,7 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ProgrammingClubDataContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
- 
+
+builder.Services.AddTransient<ProgrammingClubDataContext, ProgrammingClubDataContext>();
+builder.Services.AddTransient<AnnouncementsRepository, AnnouncementsRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

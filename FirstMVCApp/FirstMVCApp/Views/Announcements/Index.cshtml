@@ -38,35 +38,36 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdAnnouncement)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ValidFrom)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ValidTo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Text)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EventDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tags)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdAnnouncement)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValidFrom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValidTo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Text)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tags)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new {  id=item.IdAnnouncement  }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.IdAnnouncement }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.IdAnnouncement })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

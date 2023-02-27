@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anap\\source\\repos\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj": {}
+    "C:\\Users\\anap\\Desktop\\net\\Grupa7_NET\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anap\\source\\repos\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj": {
+    "C:\\Users\\anap\\Desktop\\net\\Grupa7_NET\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anap\\source\\repos\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj",
+        "projectUniqueName": "C:\\Users\\anap\\Desktop\\net\\Grupa7_NET\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj",
         "projectName": "FirstMVCApp",
-        "projectPath": "C:\\Users\\anap\\source\\repos\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj",
+        "projectPath": "C:\\Users\\anap\\Desktop\\net\\Grupa7_NET\\FirstMVCApp\\FirstMVCApp\\FirstMVCApp.csproj",
         "packagesPath": "C:\\Users\\anap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anap\\source\\repos\\FirstMVCApp\\FirstMVCApp\\obj\\",
+        "outputPath": "C:\\Users\\anap\\Desktop\\net\\Grupa7_NET\\FirstMVCApp\\FirstMVCApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.3, )"
             },

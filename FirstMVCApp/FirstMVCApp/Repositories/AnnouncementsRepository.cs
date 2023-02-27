@@ -16,7 +16,28 @@ namespace FirstMVCApp.Repositories
 
         public DbSet<AnnouncementModel> GetAnnouncements()
         {
-            return _context.Annoucements;
+            return _context.Announcements;
+        }
+
+        public void Add(AnnouncementModel model)
+        {
+            model.IdAnnouncement = Guid.NewGuid();   //setam id-ul
+
+            _context.Entry(model).State = EntityState.Added;  // adaugam modelul in layerul ORM (ProgrammingClubDataContext)
+            _context.SaveChanges();  // commit to database
+        }
+
+        public AnnouncementModel GetAnnouncementById(Guid id)
+        {
+            AnnouncementModel announcement = _context.Announcements.FirstOrDefault(x => x.IdAnnouncement == id);
+            return announcement;
+
+        }
+
+        public void Update(AnnouncementModel model) 
+        {
+            _context.Announcements.Update(model);
+            _context.SaveChanges();
         }
     }
 }
