@@ -9,6 +9,9 @@ namespace FirstMVCApp.DataContext
 
         public DbSet<AnnouncementModel> Announcements { get; set; }
 
+        public DbSet<CodeSnippetModel> CodeSnippets { get; set; }
+
+
         // public DbSet<MemberModel> Members { get; set; }
         // public DbSet<MembershipModel> Memberships { get; set; }
     }

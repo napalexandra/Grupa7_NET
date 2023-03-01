@@ -20,12 +20,40 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/Announcements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/Announcements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/Announcements/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/Announcements/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub3VuY2VtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/CodeSnippets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZVNuaXBwZXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/CodeSnippets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZVNuaXBwZXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/CodeSnippets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZVNuaXBwZXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/CodeSnippets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZVNuaXBwZXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/CodeSnippets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZVNuaXBwZXRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/anap/Desktop/net/Grupa7_NET/FirstMVCApp/FirstMVCApp/Views/Home/Index.cshtml]

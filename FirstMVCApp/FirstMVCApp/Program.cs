@@ -12,6 +12,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 builder.Services.AddTransient<ProgrammingClubDataContext, ProgrammingClubDataContext>();
 builder.Services.AddTransient<AnnouncementsRepository, AnnouncementsRepository>();
+builder.Services.AddTransient<CodeSnippetsRepository, CodeSnippetsRepository>();
 
 var app = builder.Build();
 

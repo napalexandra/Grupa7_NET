@@ -1,0 +1,13 @@
+p {
+    color: red;
+}
+
+.backgroundYellow {
+    background-color: yellow;
+}
+
+#borderBlue {
+    border: 1px solid blue;
+    color: green;
+    font-weight: bold;
+}
